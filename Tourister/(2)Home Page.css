@@ -1,0 +1,1199 @@
+*{
+    margin: 0%
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid black;
+}
+.div1{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.logo{
+    color: black;
+    font-weight: 500;
+    font-family: fantasy;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.navbar{
+    margin-top: 5px;
+    height: 27px;
+    color: black;
+}
+.button{
+    background-color: rgb(7, 235, 239);
+    color: black;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 2px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.div2{
+    width: 100%;
+    height: 110px;
+    background-color: aqua;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 10px;
+    justify-content: space-between; 
+    font-weight: 900;  
+}
+.outer{
+    width: 50px;
+    height:70px;
+    margin-top: 5px;
+    border: 2px solid transparent;
+}
+.inner{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.outer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.inner i{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    font-size: 2rem;
+}
+.searchbox{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    display: flex;
+    background-color:rgb(242, 245, 74);
+}
+.container{
+    background-color: rgb(44, 243, 173);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 700px;
+    height: 30px;
+    font-size: 1.3rem; 
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+.search-icon{
+    background-color: rgb(255, 115, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+    height:32px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+/* button-box*/
+
+.div3{
+    width: 100%;
+    height: 38px;
+    background-color: rgb(242, 222, 131);
+    display: flex;
+    justify-content: space-evenly;
+}
+.button-box{
+    height: 30px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.boxes{
+    background-color: rgb(162, 200, 238);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.install{
+    background-color: rgb(162, 200, 238);
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 30px;
+    margin-top: 4px;
+} 
+.div4{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background-color: rgb(157, 245, 74);
+}
+.imagebox1{
+    width: 32%;
+    height: 280px;
+    border: 2px solid black;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    background-color: rgb(21, 241, 241);
+}
+.box-text{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sportspic{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sportspics{
+    height: 105px;
+    width: 115px;
+    margin-top: 5px;
+    background-size: cover;
+}
+.imagebox2{
+    margin: 60px 25px 60px 25px;
+    height: 320px;
+}
+.pic1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 1;
+    background-color:wheat;
+    background-image: url("pic1_img.jpg");
+    background-size: cover;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 2;
+    margin-left: 125px;
+    background-color:wheat;
+    background-image: url("pic2_img.jpg");
+    background-size: cover;
+}
+.pic3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 3;
+    margin-left: 250px;
+    background-color:wheat;
+    background-image: url("pic3_img.jpg");
+    background-size: cover;
+}
+.pic4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 4;
+    margin-left: 375px;
+    background-color:wheat;
+    background-image: url("pic4_img.jpg");
+    background-size: cover;
+}
+.pic5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 5;
+    margin-left: 500px;
+    background-color:wheat;
+    background-image: url("pic5_img.jpg");
+    background-size: cover;
+}
+.pic6{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 6;
+    margin-left: 625px;
+    background-color:wheat;
+    background-image: url("pic6_img.jpg");
+    background-size: cover;
+}
+.pic7{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 7;
+    margin-left: 750px;
+    background-color:wheat;
+    background-image: url("pic7_img.jpg");
+    background-size: cover;
+}
+
+/* midbox*/
+
+.midbox{
+    display: flex;
+    /*grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(21, 241, 241);
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    padding: 20px 5px 15px ;
+}
+.box-content{
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.box-img{
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 260px;  
+}
+
+/*endbox*/
+
+.endbox{
+    color:whitesmoke;
+}
+.end-panel1{
+    background-color: rgb(63, 39, 83);
+    margin-top: 10px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+.end-panel1 ul{
+    margin-top: 10px;
+}
+.end-panel1 ul a{
+    display: block;
+    font-size: .8rem;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.end-panel2{
+    background-color: rgb(90, 45, 133);
+    height: 75px;
+} 
+.division i{
+    font-size: 1.1rem;
+}
+.links{
+    height: 20px;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.facebook{
+    margin-top: 7px;
+}
+.instagram{
+    margin-top: 7px;
+    margin-left: 25px;
+}
+.twitter{
+    margin-top: 7px;
+    margin-left: 25px;
+}
+.linkedin{
+    margin-top: 7px;
+    margin-left: 25px;
+}
+.division2{
+    height: 30px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.division2 i{
+    font-size: 1.1rem;
+}
+.google{
+    width: 200px;
+    height: 30px;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    background-color: rgb(49, 194, 146);
+}
+.apple{
+    width: 140px;
+    height: 30px;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    border: 2px solid black;
+    background-color: rgb(49, 194, 146);
+}
+.end-panel3{
+    background-color: rgb(36, 5, 65);
+    height: 50px;
+    font-size: .6rem;
+    color: white;
+}
+.pages{
+    padding-top: 10px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*Responsiveness*/
+
+@media only screen and (max-width:1470px){
+    .boxes,.install{
+        font-size: .8rem;
+        justify-content: space-evenly;
+    }
+    .button{
+        margin-right: 8px;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width:1470px){
+    .sportspics{
+        height: 95px;
+        width: 105px;
+        background-size: cover;
+    }
+    .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{
+        height: 160px;
+        width: 160px;
+    }
+}
+@media only screen and (max-width:1400px){
+    .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media only screen and (max-width:1335px){
+    .div4{
+        height: 255px;
+    }
+    .imagebox1{
+        width: 33%;
+        height: 220px;
+    }
+    .sportspics{
+        height: 70px;
+        width: 90px;
+    }
+    .pic2{
+        margin-left: 105px;
+    }
+    .pic3{
+        margin-left: 205px;
+    }
+    .pic4{
+        margin-left: 305px;
+    }
+    .pic5{
+        margin-left: 405px;
+    }
+    .pic6{
+        margin-left: 505px;
+    }
+    .pic7{
+        margin-left: 605px;
+    }
+    .box-content{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 1240px){
+    .button{
+        margin-right: 4px;
+    }
+    .div3{
+        height: 30px;
+    }
+    .button-box{
+        margin-top: 4px;
+    }
+    .boxes{
+        font-size: .7rem;
+    }
+    .install{
+        height: 22px;
+        font-size: .7rem;
+    }
+}
+@media only screen and (max-width: 1135px){
+    .container{
+        width: 500px;
+        font-size: 1rem;
+    }
+    .div4{
+        height: 270px;
+    }
+    .pic2{
+        margin-left: 85px;
+    }
+    .pic3{
+        margin-left: 170px;
+    }
+    .pic4{
+        margin-left: 255px;
+    }
+    .pic5{
+        margin-left: 340px;
+    }
+    .pic6{
+        margin-left: 425px;
+    }
+    .pic7{
+        margin-left: 510px;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .boxes{
+        font-size: .6rem;
+    }
+    .install{
+        font-size: .6rem;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .imagebox1{
+        width: 34%;
+        height: 200px;
+    }
+    .box-text{
+        margin-top: 10px;
+    }
+    .box-content{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1060px){
+    .div4{
+        height: 300px;
+    }
+    .imagebox1{
+        height: 270px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .box-text{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .imagebox2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .pic2{
+        margin-left: 65px;
+    }
+    .pic3{
+        margin-left: 135px;
+    }
+    .pic4{
+        margin-left: 210px;
+    }
+    .pic5{
+        margin-left: 285px;
+    }
+    .pic6{
+        margin-left: 360px;
+    }
+    .pic7{
+        margin-left: 435px;
+    }
+}
+@media only screen and (max-width: 1005px){    
+    .boxes{
+        font-size: .5rem;
+    }
+    .install{
+        font-size: .5rem;
+    }
+    .end-panel1{
+        height: 200px;
+    }
+    .end-panel1 ul{
+        margin-top: 0px;
+    }
+    .end-panel1 ul a,p{
+        font-size: .6rem;
+    }
+    .end-panel2{
+        height: 55px;
+    } 
+    .division i{
+        font-size: .8rem;
+    }
+    .links{
+        height: 15px;
+        font-size: .9rem;
+    }
+    .facebook{
+        margin-top: 4px;
+    }
+    .instagram{
+        margin-top: 4px;
+    }
+    .twitter{
+        margin-top: 4px;
+    }
+    .linkedin{
+        margin-top: 4px;
+    }
+    .division2{
+        height: 20px;  
+        margin-bottom: 15px; 
+    }
+    .division2 i{
+        font-size: .8rem;
+    }
+    .google{
+        width: 170px;
+        height: 20px;
+        font-size: .85rem;
+    }
+    .apple{
+        width: 110px;
+        height: 20px;
+        font-size: .85rem;
+    }
+    .end-panel3{
+        height: 30px;
+        font-size: .3rem;
+    }
+}
+@media only screen and (max-width: 940px){
+    .box{
+        width: 23%;
+        padding: 5px 5px 5px ;
+    }
+    .box-content{
+        margin-left: 0px;
+    }
+    .box-img{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .install{
+        height: 35px;
+        font-size: .75rem;
+    }
+    .div3{
+        height: 45px;
+    }
+    .imagebox2{
+        margin: 25px 40px 25px;
+    }
+    .pic1{
+        margin-left: 35px;
+    }
+    .pic2{
+        margin-left: 125px;
+    }
+    .pic3{
+        margin-left: 215px;
+    }
+    .pic4{
+        margin-left: 305px;
+    }
+    .pic5{
+        margin-top: 125px;
+        margin-left: 80px;
+    }
+    .pic6{
+        margin-top: 125px;
+        margin-left: 170px;
+    }
+    .pic7{
+        margin-top: 125px;
+        margin-left: 260px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .navbar{
+        height: 25px;
+    }
+    .container{
+        width: 275px;
+    }
+    .imagebox1{
+        width: 40%;
+    }
+    .imagebox2{
+        margin: 25px 0px 25px;
+    }
+    .box{
+        width: 23%;
+        padding: 0px;
+    }
+    .box-content{
+        font-size: 1.1rem;
+        font-weight: 800;
+        margin-left: 0px;
+    }
+    .box-img{
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 730px){
+    .boxes{
+        font-size: .8rem;
+    }
+    .install{
+        height: 40px;
+        font-size: .7rem;
+    }
+    .pic1{
+        margin-left: 20px;
+    }
+    .pic2{
+        margin-left: 90px;
+    }
+    .pic3{
+        margin-left: 160px;
+    }
+    .pic4{
+        margin-left: 230px;
+    }
+    .pic5{
+        margin-left: 65px;
+    }
+    .pic6{
+        margin-left: 135px;
+    }
+    .pic7{
+        margin-left: 205px;
+    }
+}
+@media only screen and (max-width: 710px){
+    .div1{
+        height: 35px;
+        font-size: 1rem;
+    }
+    .navbar{
+        height: 20px;
+    }
+    .logo{
+        font-size: 1.1rem;
+    }
+    .button{
+        height: 25px;
+        font-size: 1rem;
+    }
+    .outer{
+        width: 45px;
+    }
+    .inner{
+        width:45px;
+        height:45px;
+    }
+    .outer p{
+        font-size: .7rem;
+    }
+    .inner i{
+        font-size: 1.8rem;
+    }
+    .boxes{
+        font-size: .5rem;
+    }
+    .div4{
+        height: 350px;
+        flex-wrap: wrap;
+    }
+    .imagebox1{
+        width: 100%;
+        height: 140px;
+    }
+    .sportspics{
+        height: 90px;
+        width: 75px;
+    }
+    .imagebox2{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .pic1{
+        margin-left: 65px;
+    }
+    .pic2{
+        margin-left: 135px;
+    }
+    .pic3{
+        margin-left: 205px;
+    }
+    .pic4{
+        margin-left: 275px;
+    }
+    .pic5{
+        margin-top: 0px;
+        margin-left: 345px;
+    }
+    .pic6{
+        margin-top: 0px;
+        margin-left: 415px;
+    }
+    .pic7{
+        margin-top: 0px;
+        margin-left: 485px;
+    }
+    .box{
+        height: 250px;
+        width: 47%;
+    }
+    .box-img{
+        height: 220px;  
+    }
+}
+@media only screen and (max-width: 630px){
+    .sportspics{
+        height: 90px;
+        width: 65px;
+    }
+    .pic1{
+        width: 90px;
+        height: 90px;
+        margin-left: 50px;
+    }
+    .pic2{
+        width: 90px;
+        height: 90px;
+        margin-left: 105px;
+    }
+    .pic3{
+        width: 90px;
+        height: 90px;
+        margin-left: 160px;
+    }
+    .pic4{
+        width: 90px;
+        height: 90px;
+        margin-left: 215px;
+    }
+    .pic5{
+        width: 90px;
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 270px;
+    }
+    .pic6{
+        width: 90px;
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 325px;
+    }
+    .pic7{
+        width: 90px;
+        height: 90px;
+        margin-top: 0px;
+        margin-left: 380px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .div2{
+        height: 95px;
+    }
+    .outer{
+        width: 35px;
+        height: 50px;
+    }
+    .inner{
+        width:35px;
+        height:35px;
+    }
+    .outer p{
+        font-size: .55rem;
+    }
+    .inner i{
+        font-size: 1.6rem;
+    }
+    .sportspics{
+        height: 80px;
+        width: 55px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .div1{
+        font-size: .7rem;
+        height: 25px;
+    }
+    .navbar{
+       height: 13px;
+    }
+    .logo{
+        font-size: .8rem;
+    }
+    .button{
+        height: 18px;
+        font-size: .7rem;
+        margin-top: 3px;
+    }
+    .div2{
+        height: 70px;
+    }
+    .outer{
+        width: 30px;
+        height: 40px;
+    }
+    .inner{
+        width:30px;
+        height:30px;
+    }
+    .outer p{
+        font-size: .45rem;
+        font-weight: 600;
+    }
+    .inner i{
+        font-size: 1.4rem;
+    }
+    .searchbox{
+        height: 30px;
+    }
+    .container{
+        height: 20px;
+        width: 150px;
+        font-size: .7rem;
+    }
+    .search-icon{
+        height: 21px;
+        width: 23px;
+    }
+    .search-icon i{
+        font-size: .7rem;
+    }
+    .div4{
+        height: 400px;
+        flex-wrap: wrap;
+    }
+    .imagebox1{
+        width: 100%;
+        height: 240px;
+    }
+    .sportspics{
+        height: 90px;
+        width: 100px;
+    }
+    .imagebox2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .pic1{
+        width: 80px;
+        height: 80px;
+        margin-left: 25px;
+    }
+    .pic2{
+        width: 80px;
+        height: 80px;
+        margin-left: 80px;
+    }
+    .pic3{
+        width: 80px;
+        height: 80px;
+        margin-left: 135px;
+    }
+    .pic4{
+        width: 80px;
+        height: 80px;
+        margin-left: 190px;
+    }
+    .pic5{
+        width: 80px;
+        height: 80px;
+        margin-left: 245px;
+    }
+    .pic6{
+        width: 80px;
+        height: 80px;
+        margin-left: 300px;
+    }
+    .pic7{
+        width: 80px;
+        height: 80px;
+        margin-left: 355px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .div3{
+        height: 65px;
+    }
+    .install{
+        height: 32px;
+        margin-top: 8px;
+    }
+    .end-panel2{
+        height: 55px;
+    }
+    .google{
+        width: 150px;
+        height: 20px;
+        font-size: .7rem;
+    }
+    .apple{
+        width: 100px;
+        height: 20px;
+        font-size: .7rem;
+    }
+    .end-panel1 ul a p{
+        font-size: .45rem;
+    }
+    .end-panel3{
+        height: 30px;
+        font-size: .3rem;
+    }
+}
+@media only screen and (max-width: 460px){
+    .pic1{
+        width: 70px;
+        height: 70px;
+        margin-left: 15px;
+    }
+    .pic2{
+        width: 70px;
+        height: 70px;
+        margin-left: 65px;
+    }
+    .pic3{
+        width: 70px;
+        height: 70px;
+        margin-left: 115px;
+    }
+    .pic4{
+        width: 70px;
+        height: 70px;
+        margin-left: 165px;
+    }
+    .pic5{
+        width: 70px;
+        height: 70px;
+        margin-left: 215px;
+    }
+    .pic6{
+        width: 70px;
+        height: 70px;
+        margin-left: 265px;
+    }
+    .pic7{
+        width: 70px;
+        height: 70px;
+        margin-left: 315px;
+    }
+}
+@media only screen and (max-width: 410px){
+    .sportspics{
+        height: 90px;
+        width: 90px;
+    }
+    .pic1{
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .pic2{
+        width: 60px;
+        height: 60px;
+        margin-left: 55px;
+    }
+    .pic3{
+        width: 60px;
+        height: 60px;
+        margin-left: 100px;
+    }
+    .pic4{
+        width: 60px;
+        height: 60px;
+        margin-left: 145px;
+    }
+    .pic5{
+        width: 60px;
+        height: 60px;
+        margin-left: 190px;
+    }
+    .pic6{
+        width: 60px;
+        height: 60px;
+        margin-left: 235px;
+    }
+    .pic7{
+        width: 60px;
+        height: 60px;
+        margin-left: 280px;
+    }
+}
+@media only screen and (max-width: 370px){
+    .div2{
+        height: 135px;
+    }
+    .header{  
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    .outer{
+        width: 28px;
+        height: 32px;
+        margin-top: 2px;
+    }
+    .inner{
+        width: 28x;
+        height: 28px;
+    }
+    .outer p{
+        font-size: .5rem;
+        font-weight: 500;
+    }
+    .inner i{
+        font-size: .8rem;
+    }
+    .install{
+        height: 40px;
+        margin-top: 15px;
+    }
+    .div4{
+        height: 350px;
+    }
+    .imagebox1{
+        height: 220px;
+    }
+    .sportspics{
+        height: 80px;
+        width: 80px;
+    }
+    .imagebox2{
+        margin-top: 10px;
+    }
+    .pic1{
+        width: 55px;
+        height: 55px;
+        margin-left: 10px;
+    }
+    .pic2{
+        width: 55px;
+        height: 55px;
+        margin-left: 50px;
+    }
+    .pic3{
+        width: 55px;
+        height: 55px;
+        margin-left:90px;
+    }
+    .pic4{
+        width: 55px;
+        height: 55px;
+        margin-left: 130px;
+    }
+    .pic5{
+        width: 55px;
+        height: 55px;
+        margin-left: 170px;
+    }
+    .pic6{
+        width: 55px;
+        height: 55px;
+        margin-left: 210px;
+    }
+    .pic7{
+        width: 55px;
+        height: 55px;
+        margin-left: 250px;
+    }
+    .end-panel2{
+        height: 50px;
+    }
+    .links{
+        height: 15px;
+        font-size: .7rem;
+    }
+    .facebook{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .instagram{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .twitter{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .linkedin{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .google{
+        margin-bottom: 10px;
+    }
+    .apple{
+        margin-left: 8px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .box-content{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 335px){
+    .boxes{
+        font-size: .45rem;
+    }
+    .sportspics{
+        height: 80px;
+        width: 75px;
+    }
+    .end-panel3{
+        height: 25px;
+    }
+    .pages{
+        padding-top: 5px;
+    }
+}
