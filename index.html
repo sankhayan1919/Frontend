@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Full-height, full-width background image */
+        .full-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://m.economictimes.com/thumb/msid-99508823,width-1600,height-900,resizemode-4,imgsize-122134/cyber-security-istock.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1; /* Ensures the background is behind all content */
+        }
+
+        /* Custom hover effect for nav items */
+        .nav-item {
+            transition: transform 0.3s ease, background-color 0.3s ease, font-size 0.3s ease;
+        }
+
+        .nav-item:hover {
+            transform: scale(1.1); /* Enlarges the item */
+            background-color: rgba(100, 150, 200, 0.3); /* More vibrant background color on hover */
+            border-radius: 8px; /* Rounded corners */
+            font-size: 1.2rem; /* Enlarges the font size on hover (18px) */
+        }
+
+        /* Custom hover effect for buttons */
+        .btn-item {
+            transition: transform 0.3s ease, background-color 0.3s ease, font-size 0.3s ease;
+        }
+
+        .btn-item:hover {
+            transform: scale(1.1); /* Enlarges the button */
+            background-color: rgba(37, 99, 235, 1); /* Light background color on hover */
+            font-size: 0.875rem; /* Enlarges the font size on hover (18px) */
+        }
+
+        /* Navbar background color with black and increased transparency */
+        .navbar-background {
+            background-color: rgba(0, 0, 0, 0.6); /* Black color with 60% opacity */
+        }
+
+        /* Search bar styling */
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for the search bar */
+            border-radius: 8px;
+            padding: 0.25rem; /* Adjust padding to control the height */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+            width: 250px; /* Adjust the width as needed */
+        }
+
+        .search-bar input {
+            border: none;
+            outline: none;
+            padding: 0.5rem;
+            background: transparent;
+            width: 100%;
+            font-size: 0.875rem; /* Adjust font size for the placeholder */
+            height: 2rem; /* Adjust height of the input */
+        }
+
+        .search-bar svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 0.5rem;
+            fill: white; /* Set icon color */
+        }
+
+        /* Content Styling */
+        .content {
+            margin-top: 4rem; /* Adjust margin-top to account for fixed navbar */
+            padding: 1rem;
+            min-height: calc(100vh - 4rem); /* Ensure content takes full height minus navbar */
+        }
+    </style>
+</head>
+<body>
+    <!-- Full-background image -->
+    <div class="full-background"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar-background p-1 w-full top-0 left-0 z-10">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <!-- Logo and Detectron image container -->
+                <a href="#" class="flex items-center space-x-4">
+                    <img src="https://i.postimg.cc/fR0ZBhtN/IMG-20240826-165836.jpg" alt="Logo" class="h-12">
+                    <img src="https://i.postimg.cc/QCf7GYps/logo-4k.png" alt="Detectron" class="w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-20"> <!-- Increased size -->
+                </a>
+            </div>
+            <ul class="flex space-x-4 items-center">
+                <li><a href="#" class="text-red-400 px-4 py-2 nav-item rounded-md text-lg">Home</a></li>
+                <li><a href="#" class="text-red-400 px-4 py-2 nav-item rounded-md text-lg">Products</a></li>
+                <li><a href="#" class="text-red-400 px-4 py-2 nav-item rounded-md text-lg">Login</a></li>
+                <li><a href="#" class="text-red-400 px-4 py-2 nav-item rounded-md text-lg">Support</a></li>
+                <li><a href="#" class="text-red-400 px-4 py-2 nav-item rounded-md text-lg">Contact us</a></li>
+                <li>
+                    <div class="search-bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+                          <circle cx="11" cy="11" r="6" />
+                          <line x1="16.5" y1="16.5" x2="21" y2="21" />
+                        </svg>
+                        <input type="text" placeholder="Search Forensic Data" aria-label="Search">
+                    </div>
+                </li>
+                <li>
+                    <button class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 hover:shadow-lg transition-all btn-item text-sm">Demo Video</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Example Content -->
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer p-4 bg-gray-800 text-white text-center">
+        <p>&copy; 2024 Cyber Forensic Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
